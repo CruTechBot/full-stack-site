@@ -1,0 +1,53 @@
+# Frontend dependencies and build
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/.vscode/config
+frontend/*.local
+
+# Frontend logs
+frontend/logs
+frontend/*.log
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+frontend/lerna-debug.log*
+
+# Backend build outputs
+backend/Backend/bin/
+backend/Backend/obj/
+backend/Database/bin/
+backend/Database/obj/
+
+# Backend dependencies and packages
+backend/**/.vs/
+backend/**/.vscode/
+backend/**/*.user
+backend/**/*.userprefs
+backend/**/.DS_Store
+
+# Visual Studio files
+.vs/
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# OS files
+*.DS_Store
+Thumbs.db
+
+# IDE/Editor files
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.user
+*.sw?
+
+# Application settings (if sensitive)
+# appsettings.*.json (uncomment if you have secrets in local settings)
+
+# Entity Framework
+**/*.db
+**/*.db-shm
+**/*.db-wal
