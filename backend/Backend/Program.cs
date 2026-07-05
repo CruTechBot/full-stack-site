@@ -39,7 +39,7 @@ namespace Backend
             builder.Services.AddScoped<ICommentService, CommentService>();
 
             builder.Services.AddDbContext<DatabaseContext>(options =>
-                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+                options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
             builder.Services.AddCors(options =>
             {

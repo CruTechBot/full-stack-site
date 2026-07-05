@@ -31,10 +31,10 @@ It includes a front end built with modern web technologies and a .NET back end c
 
 ## ⚙️ Running the Back End
 
-1. Open the solution file in VS Code:
+1. Open a terminal and navigate to the backend folder:
 
-   ```
-   Full Stack Site/backend/Backend/Backend.sln
+   ```bash
+   cd "Full Stack Site/backend"
    ```
 
 2. Run the project:
@@ -61,7 +61,7 @@ Whenever you make changes to the database project (for example, updating models 
 2. Run the following command (replace `NAME` with a descriptive migration name):
 
    ```bash
-   dotnet ef migrations add NAME --project database --startup-project backend
+   dotnet ef migrations add NAME --project Database --startup-project Backend
    ```
 
 ---
