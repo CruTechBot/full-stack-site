@@ -10,5 +10,6 @@ namespace Database
 
         public DbSet<User> Users => Set<User>();
         public DbSet<Comment> Comments => Set<Comment>();
+        public DbSet<ChessGame> ChessGame => Set<ChessGame>();
     }
 }
